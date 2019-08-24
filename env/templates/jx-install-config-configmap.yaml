@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQCnuNRytymfAENO2R8XtG7jANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4MzEwNmY0OS04YmE2LTRkMDMtYTQ4YS1kMTAzZGRlMDk4OWIw
+    HhcNMTkwODI0MDAzMjE5WhcNMjQwODIyMDEzMjE5WjAvMS0wKwYDVQQDEyQ4MzEw
+    NmY0OS04YmE2LTRkMDMtYTQ4YS1kMTAzZGRlMDk4OWIwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCdoa4oZ1Vm3Dxf7p4M3xJGS/jke9gDi88EY+qHtud6
+    0MnoaANTDgK4swA2tsgfFZpFOdfeFjSRKoLZoY3Y8WK9ecAUEBillKrEkyQy4Mzc
+    gEHmubWrp+eFhlcDBdmR+O8uIzXq+F8n0m7DS8trJE989dMu4dtZcXDeQ/a4TlHq
+    EzZykQbNQeXjL7Esrf6KbGrpVK/hw45nmtucVQf9iUb/QXYqS6mFwvhPKI8p4vkN
+    BAj1Txz41fgZUZgudjbhA8yTq1OYOeNUTg9imtbWjPOeSvBbsbb96fh/Aqf2peoZ
+    yL1x2vgcHqalw6Il4ayhNHQhuiHTAIeU1384LNLXy3NDAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAV
+    P5pD5cERcKdtvDtIGefToBfmRriKSmkEFaatdVzLLMTjgTAQ8MLqhOw2fy2eJYbm
+    ZUR9DV6dFxyw/vpt3phFflle1sYpi+O34WWMVWwsxhSuHLmE3GQMF9nTTQ+vG2O7
+    r9ny+6peDurdDjUefpkuCHd7fc0ZnhfNZFVjenp4OOyIzpALTvxDCG1YMzjcUI2l
+    lmb4H2j1H6dK195/nj0HZ/5l6GQKMhY94zz0Z5xeQFZmE4HlpTpY8bckfCGn+Mi6
+    5WOpuFltKLXb1K5zFLQxFk5j/GFFtzqNaIXiq7htYBmCPQhGKa8nC4ZkfXUS4R+G
+    yMijFgLjSuTb0PeE4ti1
+    -----END CERTIFICATE-----
+  clusterName: prenigma-devops
+  jx-install-version: 2.0.615
+  kubeProvider: gke
+  projectID: enhanced-tuner-250620
+  region: ""
+  secretsLocation: vault
+  server: https://35.238.174.99
+  systemVaultName: jx-vault-prenigma-devo
+  zone: us-central1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
